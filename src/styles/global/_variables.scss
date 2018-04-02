@@ -1,0 +1,37 @@
+// fonts
+@font-face {
+  font-family: "lato-Hairline";
+  src: url("../fonts/Lato-Hairline.ttf");
+}
+@font-face {
+  font-family: "lato-Light";
+  src: url("../fonts/Lato-Light.ttf");
+}
+@font-face {
+  font-family: "lato-Regular";
+  src: url("../fonts/Lato-Regular.ttf");
+}
+@font-face {
+  font-family: "lato-Bold";
+  src: url("../fonts/Lato-Bold.ttf");
+}
+@font-face {
+  font-family: "lato-Black";
+  src: url("../fonts/Lato-Black.ttf");
+}
+
+$text-ultraLight: "lato-Hairline";
+$text-light: "lato-Light";
+$text-regular: "lato-Regular";
+$text-bold: "lato-Bold";
+$text-black: "lato-Black";
+
+// Colors
+$mainColor: #54D8C6;
+$secondaryColor: #F6EFA6;
+
+// Breakpoints
+$bp-tablet: 600px;
+$bp-desktop: 949px;
+$bp-desktop-large: 1200px;
+$bp-desktop-x-large: 1800px;
